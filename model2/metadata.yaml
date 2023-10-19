@@ -1,0 +1,15 @@
+description: Ultralytics best model trained on /content/datasets/shrimp_bounding_box-7/data.yaml
+author: Ultralytics
+license: AGPL-3.0 https://ultralytics.com/license
+date: '2023-10-17T20:26:01.553449'
+version: 8.0.199
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 800
+- 800
+names:
+  0: box
+  1: side_shrimp
+  2: top_shrimp
